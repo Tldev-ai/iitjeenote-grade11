@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/grade11",
+      "destination": "https://iitjeenote-grade11.vercel.app"
+    },
+    {
+      "source": "/grade11/(.*)",
+      "destination": "https://iitjeenote-grade11.vercel.app/$1"
+    }
+  ]
+}
